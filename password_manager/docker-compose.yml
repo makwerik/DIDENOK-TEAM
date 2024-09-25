@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app  # Связываем локальные файлы с файлами в контейнере
+    ports:
+      - "8000:8000"  # Пробрасываем порт для доступа к веб-серверу

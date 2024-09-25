@@ -84,3 +84,6 @@ docker-compose exec web python manage.py createsuperuser
 }
 
 ````
+
+Для запуска тестов:
+**docker-compose run web pytest**

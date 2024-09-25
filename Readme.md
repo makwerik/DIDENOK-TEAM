@@ -16,6 +16,10 @@
 ## Установка и запуск
 
 1. Склонируйте репозиторий
+```bash
+   git clone https://github.com/makwerik/DIDENOK-TEAM.git
+   cd password_manager
+````
 2. Постройте и запустите контейнеры с помощью Docker Compose:
 ````bash
 docker-compose up --build
